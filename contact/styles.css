@@ -17,7 +17,7 @@ body{
 
 .box1{
 width: 28.5%;
-height: 18%;
+height: 17%;
 opacity: 100%;
 background-color: black;
 border-radius: 25px;
@@ -199,7 +199,7 @@ background-image: url("phone.gif");
 background-repeat: repeat-x;
 background-size: contain;
 font-size: 0px;
-transform:translateX(-500px)translateY(485px);
+transform:translateX(-500px)translateY(550px);
 
 
 
@@ -235,5 +235,5 @@ transform:translateX(-500px)translateY(485px);
   background-repeat: repeat-x;
   background-size: contain;
   font-size: 0px;
-  transform: translateY(245px)translateX(850px);
+  transform: translateY(260px)translateX(850px);
 }

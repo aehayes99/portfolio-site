@@ -20,7 +20,7 @@ display: flex;
 position: absolute;
 justify-content: center;
 width: 38%%;
-height: 10%;
+height: 9%;
 opacity: 100%;
 background-color: black;
 border-radius: 25px;
@@ -321,4 +321,19 @@ box-shadow: 0px 0px 40px 20px #0ff;
     right:10%;
     transform:translate(0%,10%);
     -ms-transform:translate(0%,10%);
+  }
+  .text1{
+    font-style: italic;
+    margin-left: 300px;
+    margin-top: 50px;
+    color:white;
+    font-family: "Vollkorn";
+  }
+  .par1{
+    width: 65%;
+    font-size: 16px;
+    margin-left: 300px;
+    margin-top: 20px;
+    color:white;
+    font-family: "Vollkorn";
   }
