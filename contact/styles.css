@@ -1,33 +1,51 @@
 body{
-  position: fixed;
+
   display: flex;
   height: 100%;
   width:100%;
-  margin: 0;
+
+  overflow: hidden;
   background-image: url("Comp-1_2.gif");
   	 backdrop-filter: brightness(.6);
   animation: fadeInAnimation ease 5s;
    animation-iteration-count: 1;
    animation-fill-mode: forwards;
-
+cursor: url(https://cur.cursors-4u.net/games/gam-12/gam1112.cur), auto !important;
 
 
 }
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    background-color: black;
+    width: 10px;
+}
 
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: cyan;
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
 
 .box1{
-width: 28.5%;
-height: 17%;
+  width: 520px;
+  height: 125px;
+  display: inline-block;
+position: inherit;
 opacity: 100%;
 background-color: black;
 border-radius: 25px;
 margin-left: 25px;
 margin-top: 25px;
+
+text-align: center;
+transform-origin: center;
+justify-content: center;
 animation: glitch-skew 4s infinite;
-line-height: 900%;
+
 
 }
 .glitch{
+  margin-top: -36px;
   color: white;
   font-family: "Grenze Gotisch";
   font-size: 8rem;
@@ -45,6 +63,7 @@ transform: translateX(5%);
  text-decoration: none;
 }
 .glitch__color {
+
   height: 100%;
   left: 0;
   opacity: 0.8;
@@ -143,8 +162,8 @@ transform: translateX(5%);
  }
 }
 .button{
-  height:5%;
-  width: 10%;
+  height:40px;
+  width: 120px;
   background-color: black;
   border-radius: 25px;
   text-align: center;
@@ -159,21 +178,34 @@ transform: translateX(5%);
 }
 a:hover {
   color: #a60721;
-
+cursor: url(https://cur.cursors-4u.net/games/gam-12/gam1112.cur), auto !important;
 }
 a {
 	text-decoration: none;
   color: white;
   text-shadow: 3px 3px #505050;
+  cursor: url(https://cur.cursors-4u.net/games/gam-12/gam1112.cur), auto !important;
 }
 .box2{
-  height:25%;
-  width: 50%;
+  height:210px;
+  width: 520px;
+  display: inline-block;
+  position: absolute;
   background-color: black;
   border-radius: 25px;
-  margin-left: 25px;
+margin-left: 25px;
+
   margin-top: 300px;
-  position: absolute;
+
+  color: white;
+  font-family: "Vollkorn";
+
+  font-size: 26px;
+
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+
   color: white;
   font-family: "Vollkorn";
   font-size: 30px;
@@ -235,5 +267,18 @@ transform:translateX(-500px)translateY(550px);
   background-repeat: repeat-x;
   background-size: contain;
   font-size: 0px;
-  transform: translateY(260px)translateX(850px);
+  transform: translateY(260px)translateX(550px);
+}
+.insta2{
+  height:300px;
+  width:900px;
+  position: fixed;
+  display: flex;
+  margin-left: 310px;
+  padding: 0px;
+  background-image: url("insta.gif");
+  background-repeat: repeat-x;
+  background-size: contain;
+  font-size: 0px;
+  transform: translateY(260px)translateX(550px);
 }

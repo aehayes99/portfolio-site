@@ -1,46 +1,71 @@
 body{
-  position: fixed;
-  display: flex;
+
   height: 100%;
   width:100%;
+  display: flex;
+
+  overflow:hidden;
   margin: 0;
   background-image: url("Comp-1_2.gif");
   	 backdrop-filter: brightness(.6);
   animation: fadeInAnimation ease 5s;
    animation-iteration-count: 1;
    animation-fill-mode: forwards;
+   cursor: url(https://cur.cursors-4u.net/games/gam-12/gam1112.cur), auto !important;
+
+
+
+}
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    background-color: black;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: cyan;
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+.box1{
+  height:100%;
+  width: 26%;
+display: block;
+
+
+
+
+
+
 
 
 
 }
 img{
-  position: absolute;
-  margin-top: 275px;
+
+  display: inline-block;
+  margin-top: 162px;
   margin-left: 25px;
   border-radius: 25px;
-  
-}
-
-.box1{
-width: 22%;
-height: 18%;
-opacity: 100%;
-background-color: black;
-border-radius: 25px;
-margin-left: 25px;
-margin-top: 25px;
-animation: glitch-skew 4s infinite;
-text-align: center;
-line-height: 900%;
-
-
+  overflow: scroll;
 
 }
-.glitch{
 
+
+.glitch {
+  height: 125px;
+  width: 400px;
+  min-width: 400px;
+
+display: inline-block;
+
+  background-color: black;
+  border-radius: 25px;
+  margin-left: 25px;
+  margin-top: 25px;
   color: white;
   font-family: "Grenze Gotisch";
-  font-size: 8rem;
+  font-size: 125px;
   font-weight: 900;
   text-transform: uppercase;
   text-align: center;
@@ -48,9 +73,17 @@ line-height: 900%;
   justify-content: center;
   animation: glitch-skew 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) 4s infinite;
 }
+
 .glitch__main {
-transform: translateX(5%);
+  height: 100%;
+  left: 0;
+  opacity: 0.8;
+  position: absolute;
+  top: -28%;
+  transform-origin: center center;
+  width: 100%;
   color: #fff;
+
 
 }
 .glitch__main:hover {
@@ -62,7 +95,7 @@ transform: translateX(5%);
   left: 0;
   opacity: 0.8;
   position: absolute;
-  top: 0;
+  top: -28%;
   transform-origin: center center;
   width: 100%;
 
@@ -156,43 +189,57 @@ transform: translateX(5%);
  }
 }
 .button{
-  height:5%;
-  width: 10%;
+  height:40px;
+  width: 120px;
+  min-width: 100px;
+
+ position: absolute;
   background-color: black;
   border-radius: 25px;
   text-align: center;
-  justify-content: center;
   color: white;
   font-size: 30px;
   font-family: "Vollkorn";
-  margin-top: 200px;
-  position: absolute;
+  margin-top: 50px;
   margin-left: 25px;
+
+
   animation: glitch-skew 5s cubic-bezier(0.20, 0.66, 0.15, 0.84) 5s infinite;
 }
 a:hover {
   color: #a60721;
+  cursor: url(https://cur.cursors-4u.net/games/gam-12/gam1112.cur), auto !important;
+
 
 }
 a {
 	text-decoration: none;
   color: white;
   text-shadow: 3px 3px #505050;
+  cursor: url(https://cur.cursors-4u.net/games/gam-12/gam1112.cur), auto !important;
+
 }
 .box2{
-  height:80%;
-  width: 50%;
+  height:82.5%;
+  width: 80%;
+  min-width: 35%;
+  display: inline-block;
   background-color: black;
   border-radius: 25px;
-  margin-left: 200px;
+  margin-left: 300px;
+  margin-right: 25px;
   margin-top: 25px;
   margin-bottom: 25px;
   color: white;
   font-family: "Vollkorn";
+  text-align: center;
   font-size: 26px;
   padding: 25px;
   padding-top: 50px;
+  padding-bottom: 50px;
   letter-spacing: 1px;
+  overflow-y: scroll;
+  overflow-x: hidden;
 
 
 }
