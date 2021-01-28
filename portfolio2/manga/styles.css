@@ -182,7 +182,7 @@ a {
 }
 .box2{
   height:77%;
-  
+
   display: flex;
   flex-wrap: wrap;
   position: absolute;
@@ -193,7 +193,7 @@ a {
   margin-bottom: 25px;
   justify-content: center;
 align-content: center;
-  position: absolute;
+  
   overflow-x: hidden;
   overflow-y: scroll;
 

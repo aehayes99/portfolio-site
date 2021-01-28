@@ -1,19 +1,18 @@
 body{
   display: flex;
-flex-wrap: wrap;
+  flex-wrap: wrap;
   position: absolute;
-margin: 0px;
-overflow-x: hidden;
+  margin: 0px;
+  overflow-x: hidden;
   height: 170%;
   width:100%;
   background-image: url("Comp-1_2.gif");
 
-  	 backdrop-filter: brightness(.6);
+     backdrop-filter: brightness(.6);
   animation: fadeInAnimation ease 5s;
    animation-iteration-count: 1;
    animation-fill-mode: forwards;
-cursor: url(https://cur.cursors-4u.net/games/gam-12/gam1112.cur), auto !important;
-
+  cursor: url(https://cur.cursors-4u.net/games/gam-12/gam1112.cur), auto !important;
 
 
 }
@@ -182,7 +181,7 @@ a {
 }
 .box2{
   height:77%;
-  
+
   display: flex;
   flex-wrap: wrap;
   position: absolute;
@@ -193,9 +192,9 @@ a {
   margin-bottom: 25px;
   justify-content: center;
 align-content: center;
-overflow-x: hidden;
-overflow-y: hidden;
 
+  overflow-x: hidden;
+  overflow-y: scroll;
 
   transform: translateY(300px);
 
@@ -229,14 +228,14 @@ html, body {
   font-weight: bold;
 }
 .mySlides {
-  width: 74%;
-  height: 60%;
+
+width: 55%;
 
   display: flex;
   flex-wrap: wrap;
   background-color: white;
   object-fit: contain;
-  margin-top: 100px;
+  margin-top: 450px;
   margin-left: 210px;
   margin-right: 210px;
   box-shadow: 0px 0px 40px 20px #0ff;
@@ -265,6 +264,7 @@ html, body {
   cursor: url(https://cur.cursors-4u.net/games/gam-12/gam1112.cur), auto !important;
   margin-left: -110px;
 margin-right: -110px;
+margin-top: 100px;
 outline: 0;
 
 }
@@ -367,13 +367,13 @@ outline: 0;
   }
   .text1{
     width: 70%;
-    display: flex;
-    font-style: italic;
-    font-size: 24px;
-    margin-left: 50px;
-    margin-top: 50px;
-    color:white;
-    font-family: "Vollkorn";
+      display: flex;
+      font-style: italic;
+      font-size: 24px;
+      margin-left: 50px;
+      margin-top: 50px;
+      color:white;
+      font-family: "Vollkorn";
   }
   .par1{
     display: flex;
