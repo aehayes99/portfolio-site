@@ -14,7 +14,7 @@ body {
   backdrop-filter: brightness(0.6);
   animation: fadeInAnimation ease 5s;
   animation-iteration-count: 1;
-  overflow: scroll;
+
   cursor: url(https://cur.cursors-4u.net/games/gam-12/gam1112.cur), auto !important;
   color: grey;
 }
