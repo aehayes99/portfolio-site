@@ -28,17 +28,37 @@
   </div>
     <div class="box2">
 
-  <img class="mySlides" src="james1.jpg">
-  <img class="mySlides" src="james2.jpg">
+  
+  <div id="slideshow1" class="slideshow-container">
+
+<div class="mySlides">
+
+<img src="james1.jpg" style="width:100%">
+
+</div>
+
+<div class="mySlides">
+
+<img src="james2.jpg" style="width:100%">
+
+</div>
 
 
 
-  <button class="w3-button cta w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button cta w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+
+<a class="prev" onclick="plusSlides(-1,slideshow1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1, slideshow1)">&#10095;</a>
+
+
+<div style="text-align:center">
+<span class="dot" onclick="currentSlide(1, slideshow1)"></span>
+<span class="dot" onclick="currentSlide(2, slideshow1)"></span>
+
+</div>
   <div class="text1">James Jean Critique<br>
   2020
   </div>
-
+</div>
 </div>
 
     <script src="functions.js"></script>
